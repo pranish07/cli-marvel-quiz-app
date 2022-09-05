@@ -1,7 +1,7 @@
 var readlineSync = require('readline-sync');
  //introduction
  var intro = readlineSync.question("what is your name? ")
- console.log("welcome" + intro + " I'm so glad you're here.");
+ console.log("welcome " + intro + " I'm so glad you're here.");
 
  //score
  var score =0;
@@ -31,24 +31,24 @@ var highScore = [
 //object
 var questions = [
   {
-    question:"what is silent voice said in Japanese? ",
-    answer:"koe no katchi"
+    question:"In the avengers infinity war, who was the second last person that Thanos took the infinity stone from?(please provide full name of that person)",
+    answer:"Doctor Strange"
   },
   {
-    question:"main character name (boy) name in silent voice? ",
-    answer:"shoyo ishida"
+    question:"where is black panther from?",
+    answer:"wakanda"
   },
    {
-    question:"what is the girls name who couldn't speak ",
-    answer:"shoyo nishimiya"
+    question:`who said the famous dialogue "He's friend from work" in the MCU ?`,
+    answer:"Thor"
   },
    {
-    question: "Does shoyo nishimiya had a sister?" ,
-    answer:"yes"
+    question: "what did Captain America calls Spiderman?" ,
+    answer:"Queens"
   },
    {
-    question:"naruto's surname?" ,
-    answer:"uzumaki"
+    question:"which animal is the character Rocket from guardian of the galaxy?" ,
+    answer:"racoon"
   }
 ];
 
